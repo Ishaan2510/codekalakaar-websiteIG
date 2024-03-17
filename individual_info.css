@@ -1,0 +1,144 @@
+/* .main{
+    border: 2px solid black;
+    width: 70vw;
+    height: 40vw;
+    margin: auto ;
+    margin-top: 5em;
+    background-color: white;
+}
+
+:root{
+    --Background-color : #030712;
+    --Text-color : #f8fafc;
+    --Primary-color : #f97316;
+    --Secondary-color : #0284c7;
+}
+
+.member_image{
+    background-color: var(--Primary-color);
+    width: 25vw;
+    height: 30vw;
+    
+    margin-top: 7% ;
+    margin-left: 7%;
+}
+
+.name{
+    display: inline;
+    background-color: aqua;
+    width: 25vw;
+    height: 10vw;
+    
+    margin-top: 7% ;
+    margin-right: 7%;
+
+}
+
+.member_info{
+
+} */
+
+:root{
+  --Background-color : black;
+  --Text-color : white;
+  --Primary-color : white;
+  --Secondary-color: yellow;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5; */
+  
+  width: 70vw;
+  height: 40vw;
+  margin: auto ;
+  margin-top: 5em;
+  background-color: var(--Background-color);
+
+  
+}
+
+.header-picture {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+}
+
+.header {
+  flex: 1.6;
+  text-align: center;
+  background-color: var(--background-color) ;
+  width: 25vw;
+  height: 30vw;
+  
+  margin-top: 6% ;
+  margin-left: 4%;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: var(--Text-color);
+}
+
+.picture {
+  flex: 1;
+  
+  background-color: var(--Primary-color);
+  width: 25vw;
+  height: 32vw;
+  
+  margin-top: 4% ;
+  
+  margin-left: 5%;
+}
+
+/* .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+} */
+
+.info{
+  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-right: 5%;
+  /* background-color: var(--Background-color); */
+  border: 16px solid var(--Secondary-color);
+  width: 30vw;
+  font-family: sans-serif;
+  
+}
+
+.name{
+  margin-left: 15%; 
+  margin-bottom: -5%;
+  margin-top: 2%;
+  flex-direction: column;
+  font-family:Impact;
+}
+.post{
+  font-size: 1.5rem;
+  margin-left: 60%;
+  flex-direction: column;
+  color: var(--Text-color);
+  font-family: Italic;
+}
+.content p{
+color: var(--Text-color);
+margin-right: 7%;
+font-size: 1.25rem;
+color: var(--Text-color) ;
+white-space: pre-line;
+}
